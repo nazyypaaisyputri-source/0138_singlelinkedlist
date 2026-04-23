@@ -87,5 +87,7 @@ void addNode()
 
             if (current == START)
             START = START->next;
+            else
+            previous->next = current->next;
         }
 };
