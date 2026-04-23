@@ -84,5 +84,8 @@ void addNode()
 
             if (!search(nim, previous, current))
             return false;
+
+            if (current == START)
+            START = START->next;
         }
 };
