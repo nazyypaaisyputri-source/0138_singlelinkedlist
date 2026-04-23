@@ -51,6 +51,8 @@ void addNode()
                 cout << "\nDuplikasi noMhs tidak diijinkan\n";
                 return;
             }
+            previous = current;
+            current = current->next;
         }
     }
 };
