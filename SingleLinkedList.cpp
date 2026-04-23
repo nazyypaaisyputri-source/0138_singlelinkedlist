@@ -75,7 +75,7 @@ void addNode()
             current = current->next;
         }
 
-        
+        return (current != NULL);
     }
         
         
