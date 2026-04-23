@@ -91,6 +91,14 @@ void addNode()
                 previous->next = current->next;
             
             delete current;
-        return true;
+            return true;
+        
+        }
+        void traverse()
+        {
+            if (listEmpty())
+            {
+                cout << "\nList Kosong\n";
+            }
         }
 };
