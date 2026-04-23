@@ -38,7 +38,10 @@ void addNode()
 
             nodeBaru->next = START;
             START = nodeBaru;
-            return;
+            return; 
         }
+
+        Node *previous = START;
+        Node *current = START;
     }
 };
