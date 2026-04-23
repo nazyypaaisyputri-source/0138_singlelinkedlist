@@ -78,5 +78,8 @@ void addNode()
         return (current != NULL);
     }
         
-        
+        bool delNoode(int nim)
+        {
+            Node *current, *previous;
+        }
 };
