@@ -81,5 +81,8 @@ void addNode()
         bool delNoode(int nim)
         {
             Node *current, *previous;
+
+            if (!search(nim, previous, current))
+            return false;
         }
 };
